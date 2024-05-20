@@ -29,10 +29,7 @@ const Overview : React.FC = () => {
             <h2 className="font-bold text-2xl text-[#ff3e54]">\ About Us \</h2>
             <p className="font-bold text-[35px] text-[#0E1F51] text-left">We Believe in Team Diversity</p>
             <p className="text-[16px] text-[#000000] text-left">
-                It is a long established fact that a reader will be distracted by the 
-                readable content of a page when looking at its layout. The point of 
-                using Lorem Ipsum is that it has a more-or-less normal distribution 
-                of letters, as opposed.
+                We respect everyone coming from diverse backgrounds and races.
             </p>
             <div className="flex gap-8 relative">
                 <div onClick={() => handleValuesType('Vision')} className={`font-bold text-lg text-[#0E1F51] z-10 border-b-4 cursor-pointer transition-all duration-300 ${valuesType === "Vision" ? "border-[#ff3e54]" : "hover:border-[#ff3e54]"} `}>
