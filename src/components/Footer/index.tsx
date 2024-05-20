@@ -16,8 +16,7 @@ const Footer : React.FC = () => {
             <div className="grid items-center gap-2 px-2 md:grid-cols-4 md:px-20 md:gap-8">
                 <div className="flex flex-col gap-4 pt-6 pb-14 px-6 py-6">
                     <Image src={logo} alt="company-logo" className="w-14"/>
-                    <p className="text-lg font-semibold">It is a long established 
-                    fact that a reader will be distracted by the readable content of a page when looking at.</p>
+                    <p className="text-lg font-semibold">Zap Solutions. Founded in 2015.</p>
                     <Link href="/about" className="rounded-full py-2 px-2 bg-white w-fit hover:bg-[#ff3e54] hover:text-white text-black md:px-10 transition-all duration-300">
                         <span className="text-md font-semibold md:text-lg">About Us</span>
                     </Link>
@@ -60,8 +59,7 @@ const Footer : React.FC = () => {
                         <h2 className="text-2xl font-bold">Subscribe Us</h2>
                         <span className="absolute left-0 right-0 bottom-0 h-1 w-12 bg-red-500"></span>
                     </div>
-                    <p className="text-lg font-semibold">It is a long established 
-                    fact that a reader will be distracted by the readable.</p>
+                    <p className="text-lg font-semibold">Subscribe us to get the latest updates.</p>
                     <div className="flex flex-col text-md gap-4">
                         <input id="email" type="text" autoComplete="off" className="'border-2 border-black py-2 pl-4 w-44 text-black md:w-64" placeholder="Email" />
                         <div className="flex flex-row w-64 md:flex-row-reverse">
