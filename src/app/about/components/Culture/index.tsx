@@ -10,7 +10,7 @@ const Culture : React.FC = () => {
                 <div className="w-full flex flex-col justify-center items-center gap-5 md:gap-10 md:flex-row">
                     {CoreValuesData.map((data, index) => (
                                                 <div key={index} className="flex items-center justify-center">
-                                                    <Card {...data} width={260}/>
+                                                    <Card {...data}/>
                                                 </div>
                                         ))}
                 </div>

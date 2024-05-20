@@ -10,14 +10,14 @@ const Expertise : React.FC = () => {
                 <div className="w-full flex flex-col justify-center items-center gap-5 md:gap-10 md:flex-row">
                     {ServicesData[0].map((data, index) => (
                                                 <div key={index} className="flex items-center justify-center">
-                                                    <Card {...data} width={360}/>
+                                                    <Card {...data} />
                                                 </div>
                                         ))}
                 </div>
                 <div className="w-full flex flex-col justify-center items-center gap-5 md:gap-10 md:flex-row">
                     {ServicesData[1].map((data, index) => (
                                                 <div key={index} className="flex items-center justify-center">
-                                                    <Card {...data} width={360}/>
+                                                    <Card {...data} />
                                                 </div>
                                         ))}
                 </div>

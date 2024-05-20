@@ -4,14 +4,13 @@ interface CardProps {
     icon : any;
     title : string;
     desc : string;
-    width : number;
     number? : string;
 }
 
-const Card : React.FC<CardProps> = ({ icon, title, desc, width, number }) => {
+const Card : React.FC<CardProps> = ({ icon, title, desc, number }) => {
     return (
         <> 
-            <div className={`flex flex-col rounded-[10px] font-DM-sans gap-4 relative bg-[#F7F7F7] w-[400px] md:w-[${width}px] md:h-[330px] p-4`}>
+            <div className={`flex flex-col rounded-[10px] font-DM-sans gap-4 relative bg-[#F7F7F7] w-[400px] md:w-[300px] md:h-[330px] p-4`}>
                 <div className="absolute right-2">
                     <h2 className="text-slate-300 text-[50px] font-bold">{number}</h2>
                 </div>

@@ -12,13 +12,13 @@ const Process : React.FC = () => {
                 <p className="font-bold text-[40px] text-[#0E1F51]">Our Process</p>
                 <div className="w-full flex flex-col justify-center items-center gap-5 md:gap-10 md:flex-row">
                     <Card icon={research} title="Research" desc="We start everything with deep research on how our clients want their products to be." 
-                    number="01" width={260}/>
+                    number="01" />
                     <Card icon={design} title="Design" desc="We design our products meticulously and with great care." 
-                    number="02" width={260}/>
+                    number="02" />
                     <Card icon={develop} title="Develop" desc="We use the latest technology and framework to develop our products." 
-                    number="03" width={260}/>
+                    number="03" />
                     <Card icon={testLogo} title="Test" desc="All of our products undergo tough testings before they are sent into the production phase to ensure customer satistfaction." 
-                    number="04" width={260}/>
+                    number="04" />
                 </div>
             </div>
         </>
