@@ -1,37 +1,37 @@
 import { useState, useEffect } from "react";
 
 export type TeamMember = {
+    photo: string;
     name: string;
     position: string;
-    photo: string;
 };
 
 const useTeamMember = () => {
-    const [teamMembers, setTeamMembers] = useState<TeamMember[]>([]);
+    const [members, setMembers] = useState<TeamMember[]>([]);
     
     useEffect(() => {
-        const fetchTeamMembers = async () => {
+        const fetchMembers = async () => {
             try {
             const response = await fetch('https://randomuser.me/api/?results=8');
             const data = await response.json();
             const positions = ['Web Developer', 'Copy Writer', 'UI/UX Designer', 'Marketing Officer', 'Finance Officer', 
             'IT Support', 'Mobile Developer', 'Software Engineer'];
-            const members : TeamMember[] = data.results.map((person : any, index : number) => ({
+            const teamMember : TeamMember[] = data.results.map((person : any, index : number) => ({
+                photo: person.picture.large,
                 name: `${person.name.first} ${person.name.last}`,
-                position: positions[index],
-                photo: person.picture.large,   
+                position: positions[index],   
             }));
-            setTeamMembers(members);
+            setMembers(teamMember);
             }
             catch(error){
-            console.error('Error fetching user data:', error);
+            console.error('Error fetching person data:', error);
             } 
         }
         
-        fetchTeamMembers();
+        fetchMembers();
     }, [])
 
-    return teamMembers;
+    return members;
 }
 
 export default useTeamMember;
