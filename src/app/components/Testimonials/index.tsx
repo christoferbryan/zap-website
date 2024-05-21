@@ -11,9 +11,9 @@ import TestimonyData from "@/utils/TestimonyPeople";
 const Testimonials : React.FC = () => {
     return (
         <>
-            <div className="flex flex-col py-10 px-10 w-full justify-center items-center gap-4 bg-[#F7F7F7]">
-                <h2 className="font-bold text-[24px] text-[#ff3e54]">\ From our Customers \</h2>
-                <p className="font-bold text-[40px] text-[#0E1F51]">Testimonials</p>
+            <div className="flex flex-col py-5 md:py-10 px-14 md:px-10 w-full justify-center items-center gap-2 md:gap-4 bg-[#F7F7F7]">
+                <h2 className="font-bold text-[20px] md:text-[24px] text-[#ff3e54]">\ From our Customers \</h2>
+                <p className="font-bold text-[35px] md:text-[40px] text-[#0E1F51]">Testimonials</p>
                 <div className="grid grid-cols-1 items-center justify-center gap-8 w-full">
                     <Swiper
                     effect={'coverflow'}

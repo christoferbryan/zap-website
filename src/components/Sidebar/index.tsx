@@ -44,7 +44,7 @@ const Sidebar : React.FC = () => {
                 
                 <nav className="flex flex-col gap-14">
                     <div className="p-3 h-32"></div>
-                    <ul className="flex flex-col font-DM-sans text-2xl gap-7 text-center font-semibold">
+                    <ul className="flex flex-col font-DM-sans text-2xl gap-7 justify-center text-center font-semibold">
                         <li><Link href='/' onClick={handleOpenSidebar}><button className = {buttonDesign}>Home</button></Link></li>
                         <li><Link href='/about' onClick={handleOpenSidebar}><button className = {buttonDesign}>About</button></Link></li>
                         <li><Link href='/services' onClick={handleOpenSidebar}><button className = {buttonDesign}>Our Services</button></Link></li>
