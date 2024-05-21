@@ -22,12 +22,12 @@ const ServicesDetailsData = [
     {
       photo: 'https://res.cloudinary.com/dhhqi0edv/image/upload/v1716193688/hubspot-integration_v2qryb.webp',
       title: 'Hubspot Integration',
-      desc: 'We develop the best in class Android and iOS applications for your needs.',
+      desc: 'Hubspot integrations never gets easier than this.',
     },
     {
         photo: 'https://res.cloudinary.com/dhhqi0edv/image/upload/v1716193630/email-marketing_cjracp.webp',
         title: 'Email Marketing',
-        desc: 'We develop the best in class Android and iOS applications for your needs.',
+        desc: 'Harness the power of writing emails to enhance your marketing performance.',
     },
 ]
   

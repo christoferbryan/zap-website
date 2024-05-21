@@ -12,7 +12,7 @@ const ServicesData = [
     },
     {
       icon: '/migration.svg',
-      desc: 'We promote teamwork through our diverse team.',
+      desc: 'We are experts of website migration with over 5 years of experience.',
       title: 'Website Migration',
     },
 ],

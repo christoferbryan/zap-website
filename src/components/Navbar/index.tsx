@@ -18,7 +18,7 @@ const Navbar : React.FC = () => {
                 <nav className="flex items-center justify-between">
                     <div className="relative bg-white flex px-5 py-2 w-1/3 md:w-1/5 md:justify-center">
                         <Link href='/'>
-                            <Image src={logo} alt="company logo" className="w-14 cursor-pointer" />
+                            <Image src={logo} alt="company logo" className="w-12 md:w-14 cursor-pointer" />
                         </Link>
                     </div>
                     <ul className='gap-20 px-20 font-bold text-[#0E1F51] font-DM-Sans hidden md:flex'>
