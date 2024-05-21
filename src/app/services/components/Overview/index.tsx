@@ -19,7 +19,7 @@ const Overview : React.FC = () => {
             <h2 className="font-bold text-[20px] md:text-[26px] text-[#ff3e54]">\ What We Do \</h2>
             <p className="font-bold text-[35px] md:text-[42px] text-[#0E1F51] text-left">We Love to Brainstorm</p>
             <p className="text-[16px] md:text-[20px] text-[#000000] text-left">
-                Brainstorming is part of our daily activities. We belive that brainstorming is the source of fresh and impactful solutions and thatt's why we always 
+                Brainstorming is part of our daily activities. We belive that brainstorming is the source of fresh and impactful solutions and that is why we always 
                 encourage everyone in the team to come up with and present their new unique ideas every day.
             </p>
         </div>
