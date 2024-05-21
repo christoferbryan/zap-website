@@ -2,12 +2,12 @@ const ServicesData = [
 [
     {
       icon: '/web-dev.svg',
-      desc: 'Web development built with the latest web frameworks designed for optimal performance.',
+      desc: 'Websites built with the latest web frameworks designed for optimal performance.',
       title: 'Web Development',
     },
     {
       icon: '/ui-ux.svg',
-      desc: 'We strive to develop high quality products and never settle for less.',
+      desc: 'We develop the best in class user interface and user experience.',
       title: 'UI/UX Design',
     },
     {

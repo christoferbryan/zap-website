@@ -20,13 +20,13 @@ const TestimonyData = [
     {
       photo: '/testimony-person-4.png',
       name: 'Patricia Larsen',
-      desc: 'Zap Solutions have helped our team to conduct email marketing and in just a few weeks, we noticed a significant change in how we attract new customers.',
+      desc: 'Hubspot integration is usually a complicated task, but not for Zap Solutions. They are really experts at this!',
       position: 'COO',
     },
     {
       photo: '/testimony-person-5.png',
       name: 'Emil Lund',
-      desc: 'Hubspot integration is usually a complicated task, but not for Zap Solutions. They are really experts at this!',
+      desc: 'Zap Solutions have helped our team to conduct email marketing and in just a few weeks, we have noticed a significant change in how we attract new customers.',
       position: 'CMO',
     },
 ]

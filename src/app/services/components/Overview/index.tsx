@@ -17,10 +17,9 @@ const Overview : React.FC = () => {
     const rightContent = (
         <div className="flex flex-col justify-center bg-[#F7F7F7] gap-3 md:gap-5 font-DM-sans w-full h-full px-10 py-5 md:py-0 md:mt-0 md:pl-2">
             <h2 className="font-bold text-[20px] md:text-[26px] text-[#ff3e54]">\ What We Do \</h2>
-            <p className="font-bold text-[35px] md:text-[42px] text-[#0E1F51] text-left">We Love to Brainstorm</p>
+            <p className="font-bold text-[35px] md:text-[42px] text-[#0E1F51] text-left">Solving Problems</p>
             <p className="text-[16px] md:text-[20px] text-[#000000] text-left">
-                Brainstorming is part of our daily activities. We belive that brainstorming is the source of fresh and impactful solutions and that is why we always 
-                encourage everyone in the team to come up with and present their new unique ideas every day.
+                That phrase describes how we operate as we continuously strive to create fresh and innovative solutions to our clients problems.
             </p>
         </div>
     )
