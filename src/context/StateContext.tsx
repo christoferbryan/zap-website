@@ -10,12 +10,7 @@ interface ContextProps {
     setSidebarState: Dispatch<SetStateAction<boolean>>
 }
 
-const defaultValue = {
-    sidebarOpen : false,
-    setSidebarState : () => { }
-}
-
-const StateContext = createContext<ContextProps>(defaultValue);
+const StateContext = createContext<ContextProps>({ sidebarOpen : false, setSidebarState : () => { }});
 
 const StateProvider : React.FC<ChildrenProps> = ({ children }) => {
     const [sidebarOpen, setSidebarState] = useState<boolean>(false);
